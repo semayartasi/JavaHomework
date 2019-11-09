@@ -1,4 +1,4 @@
-package day19.homework;
+package day19_HashSet;
 
 import javax.sound.midi.Soundbank;
 import java.util.HashSet;
