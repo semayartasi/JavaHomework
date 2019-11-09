@@ -1,18 +1,18 @@
-package day19.homework;
+package day19_HashSet;
 
 import java.util.ArrayList;
 
-public class Task21Replace {
+public class Task22PrintAllElementsPosition {
     public static void main(String[] args) {
         ArrayList<String> colors1=new ArrayList<String>();
         colors1.add("Black");
         colors1.add("Blue");
+        colors1.add("Purple");
+        colors1.add("Pink");
         System.out.println("original List:"+colors1);
-        String newColor="White";
-        colors1.set(1,newColor);
-
-        System.out.println("New list");
-        for (int i = 0; i < colors1.size(); i++) {
+        System.out.println("\nPrint using index of an element:");
+        int no_of_elements= colors1.size();
+        for (int i = 0; i < no_of_elements; i++) {
             System.out.println(colors1.get(i));
 
         }

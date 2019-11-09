@@ -1,4 +1,4 @@
-package day19.homework;
+package day19_HashSet;
 import java.util.ArrayList;
 import java.util.Collections;
 public class task10ShuffleElements {

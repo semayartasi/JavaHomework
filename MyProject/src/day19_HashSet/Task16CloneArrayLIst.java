@@ -1,4 +1,4 @@
-package day19.homework;
+package day19_HashSet;
 import java.util.ArrayList;
 
 public class Task16CloneArrayLIst {
