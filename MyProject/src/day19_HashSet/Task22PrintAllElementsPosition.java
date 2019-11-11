@@ -1,7 +1,5 @@
 package day19_HashSet;
-
 import java.util.ArrayList;
-
 public class Task22PrintAllElementsPosition {
     public static void main(String[] args) {
         ArrayList<String> colors1=new ArrayList<String>();
