@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Agrement Form</title>
+    <!--
+        give your div some styles, like background color, width and center it in the middle of the screen
+        give your form inputs some styles, like font, margins and color of text
+    -->
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        p {
+             text-align: center;
+                color: red;
+                font-weight: bold;
+        }
+
+        .img-submit{
+        width:150px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<!--
+   Create a form with:
+    * 1 text input called "username"
+    * 2 password inputs, called "password" and "password repeat"
+    * 1 text area called "address"
+    * 2 radio buttons with values "male" and "female" and called "sex"
+    * 1 dropdown with selections: free, basic, enterprise. Call this dropdown "plan"
+    * 1 checkbox with name "agreement" and with text "I agree to terms and conditions"
+    * 1 submit image button that uses "submit.png"
+   Put your form inside a div
+-->
+
+<p>Agreement Form</p>
+
+<form action="/someUrl" method="GET">
+    <p>Username: <br> <input name="username" type="username"/></p>
+    <p>Password: <br> <input name="password" type="password"/></p>
+    <p>Password repeat: <br> <input name="password_repeat" type="password_repeat"/></p>
+    <p>Adress: <br><textarea name="address" type="address" ></textarea></p>
+
+    <p>
+        Gender <br>
+        <input type="radio" name="radio" value="Female"><label for="Female"> Female</label><br>
+        <input type="radio" name="radio" value="Male"><label for="Male"> Male</label><br>
+
+    </p>
+
+    <p>
+    Plan
+    <br>
+        <select type="select" name="select">
+            <option>Free</option>
+            <option>Basic</option>
+            <option>Enterprise</option>
+
+        </select>
+    </p>
+
+    <p>
+        Agreement <br>
+        <input type="checkbox" name="checkbox"> I agree to terms and conditions
+    </p>
+
+
+    <p>
+   <input type="image" name="image" class="img-submit" src="img/submit.png">
+    </p>
+
+</form>
+
+</body>
+</html>
